@@ -8,14 +8,15 @@ from dailyMoneyCalcs import calcDiff
 from dailyMoneyTerminal import terminal
 from dailyMoneyGUI import gui
 
-try:
-    opt, args = getopt.getopt(sys.argv[1:],"g",["gui"])
-except getopt.GetoptError:
-    print("option not recognised")
+def main():
+    try:
+        opt, args = getopt.getopt(sys.argv[1:],"g",["gui"])
+    except getopt.GetoptError:
+        print("option not recognised")
 
-diff, payday = calcDiff()
+    diff, payday = calcDiff()
 
-if (len(opt) == 0):
-    terminal(diff)
-elif (opt[0][0] == "-g" or opt[0][0] == "--gui"):
-    gui(diff, payday)
+    if (len(opt) == 0):
+        terminal(diff)
+    elif (opt[0][0] == "-g" or opt[0][0] == "--gui"):
+        gui(diff, payday)
