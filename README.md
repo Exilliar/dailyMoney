@@ -8,9 +8,7 @@ python3 dailMoney.py
 python3 dailyMoney.py -g
 
 Options:  
-'-g'  
-'-gui'  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runs the program using a GUI rather than the default terminal interface
+-g&nbsp;&nbsp;-gui  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runs the program using a GUI rather than the default terminal interface
 
 # Notes
 
