@@ -13,7 +13,7 @@ dailyMoney -g
 python3 __main__.py  
 python3 __main__.py -g
 
-Options:  
+### Options:  
 -g&nbsp;&nbsp;-gui  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runs the program using a GUI rather than the default terminal interface
 
 # Notes
