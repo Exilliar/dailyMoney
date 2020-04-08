@@ -17,5 +17,5 @@ diff, payday = calcDiff()
 
 if (len(opt) == 0):
     terminal(diff)
-elif (opt[0][0] == "-g"):
+elif (opt[0][0] == "-g" or opt[0][0] == "--gui"):
     gui(diff, payday)
