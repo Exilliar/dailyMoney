@@ -44,6 +44,8 @@ To build on ubuntu (and probably other unix machines) run commands
 
 Check that it's now working run `./dailyMoney`. It should fully work
 
+There is also the bash script `createBuild.bash` that can be run. It follows the instructions above, however uses `chmod 777 dailyMoney` as the final command for reliability
+
 ## Make command available on ubuntu
 
 To make the `dailyMoney` command available for use anywhere on linux, copy the `dailyMoney` executable created in the  previous section into `/bin`. It should then work fully
