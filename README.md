@@ -10,8 +10,8 @@ dailMoney
 dailyMoney -g
 
 ## Before building
-python3 __main__.py  
-python3 __main__.py -g
+python3 \_\_main\_\_.py  
+python3 \_\_main\_\_.py -g
 
 ### Options:  
 -g&nbsp;&nbsp;-gui  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runs the program using a GUI rather than the default terminal interface
@@ -44,7 +44,7 @@ To build on ubuntu (and probably other unix machines) run commands
 
 Check that it's now working run `./dailyMoney`. It should fully work
 
-There is also the bash script `createBuild.bash` that can be run. It follows the instructions above, however uses `chmod 777 dailyMoney` as the final command for reliability
+There is also the bash script `createBuild.bash` that can be run. It follows the instructions above, however uses `chmod 777 dailyMoney` as the final command for reliability. This script is also only tested on an Ubuntu 18.04 machine, it has not been tested on any other OS', it will likely not work on Windows, but it should on other unix like OS'
 
 ## Make command available on ubuntu
 
