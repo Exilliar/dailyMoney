@@ -3,6 +3,7 @@ from functools import partial
 
 from dailyMoneyCalcs import calcDaily
 
+
 def gui(diff, payday):
     def calc_result(output, inp, save_label):
         try:
@@ -36,6 +37,7 @@ def gui(diff, payday):
 
     calc_result = partial(calc_result, output, inp, save_label)
 
-    button = Button(master, text='Calculate', width=25, command=calc_result).grid(row=3, columnspan=2)
+    button = Button(master, text='Calculate', width=25,
+                    command=calc_result).grid(row=3, columnspan=2)
 
     mainloop()
