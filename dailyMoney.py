@@ -8,9 +8,10 @@ from dailyMoneyCalcs import calcDiff
 from dailyMoneyTerminal import terminal
 from dailyMoneyGUI import gui
 
+
 def main():
     try:
-        opt, args = getopt.getopt(sys.argv[1:],"g",["gui"])
+        opt, args = getopt.getopt(sys.argv[1:], "g", ["gui"])
     except getopt.GetoptError:
         print("option not recognised")
 
