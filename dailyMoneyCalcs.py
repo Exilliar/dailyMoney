@@ -15,9 +15,9 @@ def calcDiff():
     weekday = payday.weekday()
 
     if (weekday == 5):
-        payday.day -= 1
+        payday = payday.replace(day=payday.day-1)
     elif (weekday == 6):
-        payday.day -= 2
+        payday = payday.replace(day=payday.day-2)
 
     diff = (payday - currentDate).days
 
